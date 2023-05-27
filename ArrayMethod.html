@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let array = [12, 0, 56, 4, 15, 6, 94, 99]
+
+        console.log(array);
+        // console.log(typeof array[0]);
+        // let a = array.toString()
+        // console.log(a);
+
+        // let b = array.join("%")
+        // console.log(b);
+
+        // let c = array.pop()
+        // console.log(c , array);
+
+        //  let d = array.push(25)
+        // console.log(d , array);
+
+        //   let f = array.shift()
+        // console.log(f , array);
+
+        //  let g = array.unshift(45)
+        // console.log(g , array);
+
+
+
+        let comper = (a, b) => {
+            return b - a
+        }
+        let l = array.sort(comper)
+        console.log(l);
+        // console.log(array);
+        // console.log(typeof array);
+
+        // splice or slice
+
+        //    let h = array.splice(2,3,"name","fname", "lname")
+        //    console.log(h , array);
+
+        let i = array.slice(2, 5)
+        console.log(i, array);
+
+        let array_1 = [11, 12, 13, 14, 15]
+        let array_2 = [21, 22, 23, 24, 25]
+        let array_3 = [31, 32, 33, 34, 35]
+
+
+        let j = array_2.concat(array_1, array_3)
+        console.log(j);
+
+        let k = array.reverse()
+        console.log(k);
+    </script>
+</body>
+
+</html>
