@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let persone = {
+            fname: "sameer",
+            lname: " surname",
+            email: "Al@gmail.com",
+            phone_no: 9899896458,
+            salary: function () {
+                return 400000
+            },
+            slary2: function () {
+                return 4000000
+            },
+            dblslary: function () {
+                return this.salary(), this.slary2()
+                console.log("calld");
+            }
+        }
+
+        console.log(persone);
+        document.write(persone.fname)
+        document.write(persone.lname)
+        document.write(persone.email)
+        document.write(persone.phone_no)
+        console.log(persone.salary());
+        console.log(persone.hobbies);
+
+        console.log(persone.dblslary());
+
+
+
+    </script>
+
+</body>
+
+</html>
