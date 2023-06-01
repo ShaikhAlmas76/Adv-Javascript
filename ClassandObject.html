@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let studant1 = "maulik"
+        console.log(`${studant1}`);
+
+
+        class Addmisionform {
+            submit() {
+                alert(this.name + " your form was submited")
+            }
+            cancle() {
+                alert(this.name + " your form was cancle")
+            }
+            fill(givename) {
+                this.name = givename
+            }
+        }
+
+        let maulik = new Addmisionform()
+        console.log(maulik);
+        maulik.fill("maulik")
+        maulik.submit()
+        let parth = new Addmisionform()
+        parth.fill("parth")
+        parth.cancle()
+
+        // let maulik = new Addmisionform()
+        // maulik.submit()
+        // let parth = new Addmisionform()
+        // parth.fill("parth")
+        // parth.cancle()
+
+    </script>
+
+</body>
+
+</html>
