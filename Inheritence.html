@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        class Animal {
+            shout() {
+                console.log("this animal was shouting");
+            }
+            eat() {
+                console.log("this animal was eating");
+            }
+        }
+
+        class Animal2 extends Animal {
+
+            run() {
+                console.log("dog animal was running ");
+            }
+        }
+
+        let cat = new Animal()
+        let dog = new Animal2()
+        cat.shout()
+        cat.eat()
+        dog.run()
+        dog.eat()
+        // dog.run()
+        // dog.eat()
+    </script>
+
+</body>
+
+</html>
