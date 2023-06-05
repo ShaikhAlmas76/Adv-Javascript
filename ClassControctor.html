@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        // class Product{
+        //     constructor(Productname,Productprice, Productnumber,Productdiscount){
+        //         this.Productname = Productname,
+        //         this.Productprice = Productprice,
+        //         this.Productnumber = Productnumber,
+        //         this.Productdiscount = Productdiscount
+        //     }
+        // }
+
+        class Product {
+            constructor(productname, productprice, productmodel, productdiscount) {
+                this.productname = productname,
+                    this.productprice = productprice,
+                    this.productmodel = productmodel,
+                    this.productdiscount = productdiscount
+            }
+        }
+
+        let newCar = new Product("ford", 6800000, "mustangGT", "5%")
+        console.log(newCar);
+
+        let bike = new Product("R15", 200000, "yamaha", 0)
+        console.log(bike);
+
+
+    // let car = new Product("kia",5000000, 102 )
+
+        // console.log(car);
+        // console.log(car.Productdiscount ?? "10%" );
+        // let bike = new Product("R15",100202,"yamahar15", "15%")
+        // console.log(bike);
+    </script>
+
+</body>
+
+</html>
