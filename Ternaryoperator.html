@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // condition ? exprIfTrue : exprIfFalse
+        function getfee(member) {
+            return (member ? "2rupees" : "10rupees");
+        }
+        console.log(getfee(true));
+        console.log(getfee(false));
+        console.log(getfee(null));
+
+        function age(year) {
+            return (year > 25 ? "eligible for vote" : "not eligible for vote")
+        }
+        console.log(age(34));
+        console.log(age(15));
+
+    </script>
+</body>
+
+</html>
